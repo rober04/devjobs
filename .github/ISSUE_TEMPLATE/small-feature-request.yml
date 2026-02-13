@@ -1,0 +1,16 @@
+name: "🚀 Small Feature Request"
+description: Sugiere una funcionalidad o mejora
+labels: ["frontend","feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por tomarte el tiempo para completar esta solicitud de funcionalidad!
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Describe la funcionalidad
+      description: Una descripción clara y concisa de lo que consideras que sería una adición útil, incluyendo los posibles casos de uso y alternativas que hayas considerado, así como imágenes. Si tienes un prototipo o módulo funcional que implemente esta característica, incluye un enlace.
+      placeholder: Descripción de la funcionalidad
+    validations:
+      required: true
