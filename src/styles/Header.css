@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--background);
+  justify-content: space-between;
+  height: 6rem;
+  padding: 0rem 1rem;
+  border-bottom: 1px solid var(--border);
+}
+.header__logo {
+  color: var(--primary-light);
+  height: 2rem;
+  width: 2rem;
+}
+.header__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  font-weight: 500;
+}
