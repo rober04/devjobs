@@ -1,0 +1,35 @@
+.header__profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.header__button {
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+
+  &.login {
+    background-color: var(--primary-light);
+    border: 0.15rem solid var(--primary-light);
+    color: var(--text-primary);
+    transition:
+      background-color 0.2s ease-in-out,
+      color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: transparent;
+      color: var(--primary-light);
+    }
+  }
+  &.job {
+    border: 0.15rem solid var(--primary-dark);
+    background-color: var(--primary-dark);
+    color: var(--primary-light);
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: transparent;
+    }
+  }
+}
