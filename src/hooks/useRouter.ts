@@ -15,13 +15,7 @@ export function useRouter() {
     };
   }, []);
 
-  const navigateTo = (path: string) => {
-    window.history.pushState({}, "", path);
-    setCurrentPath(path);
-  };
-
   return {
     currentPath,
-    navigateTo,
   };
 }
