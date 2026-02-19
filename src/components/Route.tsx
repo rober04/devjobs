@@ -14,5 +14,3 @@ export function Route({ path, component: Component }: RouteProps) {
 
   return <Component />;
 }
-
-export default Route;

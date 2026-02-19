@@ -8,5 +8,3 @@ export function HeaderProfile() {
     </section>
   );
 }
-
-export default HeaderProfile;
