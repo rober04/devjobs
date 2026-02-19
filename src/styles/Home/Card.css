@@ -1,0 +1,39 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--card-bg);
+  width: 30rem;
+  height: 19.5rem;
+  border-radius: 0.5rem;
+  padding: 2.25rem 2.25rem 3rem 2.25rem;
+}
+.card__img {
+  background-color: transparent;
+  filter: brightness(0) saturate(100%) invert(26%) sepia(100%) saturate(3138%)
+    hue-rotate(198deg) brightness(97%) contrast(87%);
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.card__img-background {
+  display: grid;
+  place-content: center;
+  background-color: var(--secondary-dark);
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+.card__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  background-color: transparent;
+}
+.card__description {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+  background-color: transparent;
+  filter: brightness(0.8);
+}
