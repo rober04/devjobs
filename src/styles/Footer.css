@@ -1,0 +1,9 @@
+.footer {
+  display: grid;
+  border-top: 1px solid var(--border);
+  color: var(--text-secondary);
+  background-color: transparent;
+  filter: brightness(0.8);
+  place-content: center;
+  height: 15vh;
+}
