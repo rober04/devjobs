@@ -25,6 +25,8 @@
     "globals": "^16.5.0",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.48.0",
+    "unplugin-auto-import": "^21.0.0",
+    "unplugin-react-components": "^0.1.4",
     "vite": "^7.3.1"
   }
 }
